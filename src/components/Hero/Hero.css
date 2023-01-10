@@ -1,0 +1,80 @@
+/* StartIcon */
+
+.StartIcon {
+    position: absolute;
+    top: 100px;
+    right: -50px;
+}
+
+
+/* LockIcon */
+
+.LockIcon {
+    position: absolute;
+    top: 100px;
+    left: -50px;
+}
+
+
+/* WebIcon */
+
+.WebIcon {
+    position: absolute;
+    top: -50px;
+    left: 90px;
+}
+
+
+/* TitleImage1 */
+
+.TitleImage1 {
+    position: absolute;
+    top: 220px;
+    left: -120px;
+}
+
+
+/* TitleImage2 */
+
+.TitleImage2 {
+    position: absolute;
+    top: 220px;
+    left: 100px;
+}
+
+@media screen and (max-width:650px) {
+    /* HeroImg */
+    .HeroImg {
+        margin-left: 100px;
+    }
+    /* StartIcon */
+    .StartIcon {
+        position: absolute;
+        top: 100px;
+        right: 50px;
+    }
+    /* TitleImage2 */
+    .TitleImage2 {
+        position: absolute;
+        top: 220px;
+        left: 200px;
+    }
+    /* TitleImage1 */
+    .TitleImage1 {
+        position: absolute;
+        top: 220px;
+        left: -10px;
+    }
+    /* WebIcon */
+    .WebIcon {
+        position: absolute;
+        top: -50px;
+        left: 170px;
+    }
+    /* LockIcon */
+    .LockIcon {
+        position: absolute;
+        top: 100px;
+        left: 20px;
+    }
+}
